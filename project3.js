@@ -6,9 +6,14 @@ function setup() {
 function draw() {
   //bellow
   noStroke(0);
-  fill(184,150,150)
-  ellipse(mouseX, mouseY, 30, 30)
+  let color = (163,166,211)
+  fill(mouseX,mouseY,150)
+  x = 30
+  y = 30
+  ellipse(mouseX, mouseY, x, y)
+  
 }
 function mousePressed() {
   background(0);
+
 }
